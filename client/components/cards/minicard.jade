@@ -5,7 +5,7 @@ template(name="minicard")
     if labels
       .minicard-labels
         each labels
-          .minicard-label(class="card-label-{{color}}" title="{{name}}")
+          .minicard-label(class="card-label-{{color}}" title="{{name}}")= name
     .minicard-title= title
     .dates
       if startAt
