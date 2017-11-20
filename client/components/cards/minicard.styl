@@ -69,14 +69,21 @@
     border-radius: top 2px
 
   .minicard-labels
-    float: right
-    display: flex
+    display: table
+    max-width: 228px
 
     .minicard-label
-      width: 11px
-      height: @width
       border-radius: 2px
-      margin-left: 3px
+      margin: 0 3px 3px 0
+      padding: 0 3px
+      max-width: 100px
+      font-weight: 700
+      color: #fff
+      display: inline-block
+      font-size: 10px
+      white-space: nowrap
+      text-overflow: wllipsis
+      vertical-align: bottom
   .dates
     display: flex;
     flex-direction: row;
